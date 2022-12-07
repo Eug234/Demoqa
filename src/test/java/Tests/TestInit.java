@@ -27,7 +27,7 @@ public class TestInit {
         }
 
     }
-    public void goToGoogle(){
+    public void goToDemoqa(){
         driver.get("https://demoqa.com/webtables");
     }
 }
