@@ -6,17 +6,17 @@ import org.testng.annotations.Test;
 
 public class TestDemoqa extends TestInit{
     @Test
-    public void clickEnterBtn(){
+    public void clickWebTables(){
         goToDemoqa();
         DemoqaHomePage demoqaHomePage = new DemoqaHomePage(driver);
-        demoqaHomePage.getEnterBtn().click();
+        demoqaHomePage.getWebTables().click();
 
     }
     @Test
-    public void clickEnterBtnv2(){
+    public void clickButtons(){
         driver.get("https://demoqa.com/webtables");
         DemoqaHomePage demoqaHomePage = new DemoqaHomePage(driver);
-        demoqaHomePage.getEnterBtn().click();
+        demoqaHomePage.getButtons().click();
 
     }
 }

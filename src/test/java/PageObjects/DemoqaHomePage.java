@@ -12,11 +12,11 @@ public class DemoqaHomePage extends BasePage{
     }
     WebDriver driver = new ChromeDriver(); //?
 
-    public WebElement getSolutions(){
-        return driver.findElement(By.xpath("//*[@id=/headerPanel/]/ul[1]/li[1]"));
+    public WebElement getWebTables(){
+        return driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div[1]/div/div/div[1]/div/ul/li[4]/span"));
     }
-    public WebElement getEnterBtn() {
-        return driver.findElement(By.xpath("//a[text()='Увійти']"));
+    public WebElement getButtons() {
+        return driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div[1]/div/div/div[1]/div/ul/li[4]/span"));
     }
 
 }
