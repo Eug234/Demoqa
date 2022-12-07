@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoqaHomePage extends BasePage{
 
-    public DemoqaHomePage(WebDriver.driver){
+    public DemoqaHomePage(WebDriver driver){
         super(driver);
     }
     WebDriver driver = new ChromeDriver(); //?

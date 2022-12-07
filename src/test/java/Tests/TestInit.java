@@ -17,7 +17,7 @@ public class TestInit {
 
     }
     @AfterMethod
-    public voidtearDown() {driver.quit();}
+    public void tearDown() {driver.quit();}
 
     public void voidsleep(int s){
         try {
